@@ -3,5 +3,4 @@ provider "google" {
   project     = var.project-name
   region      = var.region
   zone        = var.zone
-  credentials = "${file("${path.module}/application_default_credentials.json")}"
 }
