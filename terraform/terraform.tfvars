@@ -4,7 +4,7 @@ zone= "us-central1-a"
 # number of master
 count-master= 1
 # number of workers
-count-worker= 3
+count-worker= 2
 # type of machines
 # e2-micro around 7$ CAD / month / per machine
 # e2-small around 13$ CAD / month / per machine
@@ -17,4 +17,4 @@ subnetwork-name= "kubernetes-subnetwork"
 firewall-name= "kubernetes-firewall"
 # tag for your firewall
 firewall-target-tag= "kubernetes-firewall-target"
-project-name="playground-s-11-10e481de"
+project-name="laboratory-kubernetes"
